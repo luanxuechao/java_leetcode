@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,6 +7,9 @@ import java.util.List;
 /**
  * @author lxc
  * @Date 2019/12/9
+ */
+/**
+ * 通过两个指针找出和为target
  */
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {

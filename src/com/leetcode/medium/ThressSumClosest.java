@@ -1,10 +1,14 @@
-package com.leetcode.easy;
+package com.leetcode.medium;
 
 import java.util.Arrays;
 
 /**
  * @author lxc
  * @Date 2019/12/9
+ */
+/**
+ * threeSum 变形 找出与target相近的那个数
+ * 
  */
 public class ThressSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
