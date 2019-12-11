@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ProductofArrayExceptSelf238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/SubarraySumEqualsK560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/TwoSum167.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/ThressSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ThressSumClosest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductofArrayExceptSelf238">
+  <component name="RunManager" selected="Application.SubarraySumEqualsK560">
     <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.FourSum" />
       <module name="leetcode_java" />
@@ -83,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.ThreeSum" />
+    <configuration name="SubarraySumEqualsK560" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.SubarraySumEqualsK560" />
       <module name="leetcode_java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -111,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.TwoSum" />
+    <configuration name="TwoSum167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.TwoSum167" />
       <module name="leetcode_java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySumEqualsK560" />
+        <item itemvalue="Application.TwoSum167" />
         <item itemvalue="Application.ProductofArrayExceptSelf238" />
         <item itemvalue="Application.FourSum" />
         <item itemvalue="Application.ThressSumClosest" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575876531270</updated>
       <workItem from="1575876532905" duration="2470000" />
-      <workItem from="1575891916119" duration="8499000" />
+      <workItem from="1575891916119" duration="13687000" />
     </task>
     <servers />
   </component>
@@ -213,6 +211,31 @@
           <url>file://$PROJECT_DIR$/src/com/leetcode/medium/FourSum.java</url>
           <line>26</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/ArrayList.java</url>
+          <line>491</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/SubarraySumEqualsK560.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/SubarraySumEqualsK560.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/SubarraySumEqualsK560.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/easy/SubarraySumEqualsK560.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
