@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/LongestPalindrome5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,7 +165,8 @@
       <updated>1575876531270</updated>
       <workItem from="1575876532905" duration="2470000" />
       <workItem from="1575891916119" duration="15267000" />
-      <workItem from="1576394360406" duration="7023000" />
+      <workItem from="1576394360406" duration="7083000" />
+      <workItem from="1576997461777" duration="63000" />
     </task>
     <servers />
   </component>
