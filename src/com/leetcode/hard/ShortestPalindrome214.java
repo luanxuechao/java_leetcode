@@ -19,8 +19,8 @@ public class ShortestPalindrome214 {
     // }
     // for (int i = 0; i < sn; i++) {
     // if (fn - i - 1 < 0) {
-    // shortest.insert(0, secondString.substring(i, i + 1));
-    // continue;
+    // shortest.insert(0, secondString.substring(i, sn));
+    // break;
     // }
     // if (fn - i - 1 >= 0 && firstString.charAt(fn - i - 1) != secondString.charAt(i)) {
     // ismatch = false;
@@ -31,7 +31,7 @@ public class ShortestPalindrome214 {
     // if (!ismatch) {
     // return s + s;
     // }
-    // return shortest.append(s).toString();
+    // return shortest.reverse().append(s).toString();
     // };
     //
     // public static String shortestPalindrome(String s) {
@@ -54,10 +54,13 @@ public class ShortestPalindrome214 {
     // return shortest;
     //
     // };
+
     public static String shortestPalindrome(String s) {
         int i = 0, n = s.length();
         for (int j = n - 1; j >= 0; --j) {
             if (s.charAt(i) == s.charAt(j)) {
+                System.out.format("i%d", i);
+                System.out.format("j%d", j);
                 ++i;
             }
 
