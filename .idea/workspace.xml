@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/DecryptStringfromAlphabettoIntegerMapping1309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/ValidParentheses20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/easy/DecryptStringfromAlphabettoIntegerMapping1309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/easy/DecryptStringfromAlphabettoIntegerMapping1309.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +46,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.DecryptStringfromAlphabettoIntegerMapping1309">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="13" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.AddBinary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidParentheses20">
     <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.AddToArrayForm" />
       <module name="java_leetcode" />
@@ -116,6 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParentheses20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.ValidParentheses20" />
+      <module name="java_leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -141,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.AddToArrayForm" />
-      <item itemvalue="Application.LetterCombinationsofaPhoneNumber17" />
-      <item itemvalue="Application.GenerateParentTheses22" />
       <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
+      <item itemvalue="Application.GenerateParentTheses22" />
+      <item itemvalue="Application.LetterCombinationsofaPhoneNumber17" />
+      <item itemvalue="Application.ValidParentheses20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses20" />
         <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
         <item itemvalue="Application.GenerateParentTheses22" />
         <item itemvalue="Application.LetterCombinationsofaPhoneNumber17" />
         <item itemvalue="Application.AddToArrayForm" />
-        <item itemvalue="Application.AddBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -201,59 +204,65 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="690" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.979@0.23.1680.979" timestamp="1582190290584" />
-    <state width="1499" height="148" key="GridCell.Tab.0.bottom" timestamp="1582622527231">
+    <state width="1794" height="148" key="GridCell.Tab.0.bottom" timestamp="1582792974398">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622527231" />
+    <state width="1794" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582792974398" />
     <state width="1358" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021551" />
     <state width="1358" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="1499" height="148" key="GridCell.Tab.0.center" timestamp="1582622527230">
+    <state width="1794" height="148" key="GridCell.Tab.0.center" timestamp="1582792974398">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="148" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622527230" />
+    <state width="1794" height="148" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582792974398" />
     <state width="1358" height="148" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021550" />
     <state width="1358" height="148" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="1499" height="148" key="GridCell.Tab.0.left" timestamp="1582622527230">
+    <state width="1794" height="148" key="GridCell.Tab.0.left" timestamp="1582792974397">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="148" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622527230" />
+    <state width="1794" height="148" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582792974397" />
     <state width="1358" height="148" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021550" />
     <state width="1358" height="148" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="1499" height="148" key="GridCell.Tab.0.right" timestamp="1582622527231">
+    <state width="1794" height="148" key="GridCell.Tab.0.right" timestamp="1582792974398">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="148" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622527231" />
+    <state width="1794" height="148" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582792974398" />
     <state width="1358" height="148" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021551" />
     <state width="1358" height="148" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="1499" height="309" key="GridCell.Tab.1.bottom" timestamp="1582622054330">
+    <state width="1499" height="309" key="GridCell.Tab.1.bottom" timestamp="1582622911322">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622054330" />
+    <state width="1499" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622911322" />
     <state width="1358" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021546" />
-    <state width="1499" height="309" key="GridCell.Tab.1.center" timestamp="1582622054329">
+    <state width="1499" height="309" key="GridCell.Tab.1.center" timestamp="1582622911321">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622054329" />
+    <state width="1499" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622911321" />
     <state width="1358" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021545" />
-    <state width="1499" height="309" key="GridCell.Tab.1.left" timestamp="1582622054329">
+    <state width="1499" height="309" key="GridCell.Tab.1.left" timestamp="1582622911321">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622054329" />
+    <state width="1499" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622911321" />
     <state width="1358" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021545" />
-    <state width="1499" height="309" key="GridCell.Tab.1.right" timestamp="1582622054329">
+    <state width="1499" height="309" key="GridCell.Tab.1.right" timestamp="1582622911321">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="1499" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622054329" />
+    <state width="1499" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582622911321" />
     <state width="1358" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021546" />
-    <state x="328" y="94" key="SettingsEditor" timestamp="1582193568899">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor" timestamp="1582793261769">
+      <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
+    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582793261769" />
     <state x="328" y="94" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1582193568899" />
-    <state x="519" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582537683774">
-      <screen x="0" y="23" width="1680" height="979" />
+    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog" timestamp="1582793222036">
+      <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
+    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582793222036" />
     <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582537683774" />
     <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979@0.23.1680.979" timestamp="1582188873196" />
+    <state x="-1501" y="694" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582791421685">
+      <screen x="-2560" y="-69" width="2560" height="1417" />
+    </state>
+    <state x="-1501" y="694" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582791421685" />
     <state x="1001" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1582194142369">
       <screen x="0" y="23" width="1680" height="979" />
     </state>

@@ -22,28 +22,9 @@ public class DecryptStringfromAlphabettoIntegerMapping1309 {
                 index = index+3;
             }
         }
-
-//        for(String str : strs){
-//           helper(str, result);
-//        }
         return result.toString();
     };
-//    public static  void helper(String s,StringBuilder ret) {
-//        if(s.length() == 0){
-//            ret.append("");
-//            return;
-//        }
-//        if(s.length() <=2){
-//            ret.append((char)(Integer.valueOf(s).intValue()+64));
-//            return;
-//        }
-//        String[] strs = s.split("");
-//        strs[s.length()-2] = strs[s.length()-2]+strs[s.length()-1];
-//        strs[s.length()-1] = "";
-//        for(String str : strs){
-//            helper(str, ret);
-//        }
-//    }
+
 
     public static void main(String[] args) {
         System.out.print(freqAlphabets("12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"));
