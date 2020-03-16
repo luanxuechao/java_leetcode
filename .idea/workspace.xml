@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/RemoveNthNodeFromEndofList19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/PartitionList86.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEndofList19">
+  <component name="RunManager" selected="Application.PartitionList86">
     <configuration name="DecryptStringfromAlphabettoIntegerMapping1309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.DecryptStringfromAlphabettoIntegerMapping1309" />
       <module name="java_leetcode" />
@@ -75,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCombinationsofaPhoneNumber17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.LetterCombinationsofaPhoneNumber17" />
+    <configuration name="PartitionList86" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.PartitionList86" />
       <module name="java_leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -144,17 +144,17 @@
     <list>
       <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
       <item itemvalue="Application.GenerateParentTheses22" />
-      <item itemvalue="Application.LetterCombinationsofaPhoneNumber17" />
       <item itemvalue="Application.ValidParentheses20" />
       <item itemvalue="Application.RemoveNthNodeFromEndofList19" />
+      <item itemvalue="Application.PartitionList86" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionList86" />
         <item itemvalue="Application.RemoveNthNodeFromEndofList19" />
         <item itemvalue="Application.ValidParentheses20" />
         <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
         <item itemvalue="Application.GenerateParentTheses22" />
-        <item itemvalue="Application.LetterCombinationsofaPhoneNumber17" />
       </list>
     </recent_temporary>
   </component>
@@ -202,67 +202,68 @@
       <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state x="690" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.979@0.23.1680.979" timestamp="1582190290584" />
-    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1583994609308">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="504" height="322" key="DebuggerActiveHint" timestamp="1584356548746">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
     <state width="447" height="466" key="DebuggerActiveHint/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994609308" />
+    <state width="504" height="322" key="DebuggerActiveHint/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356548746" />
     <state x="-2381" y="242" width="1636" height="739" key="DiffContextDialog" timestamp="1582793492125">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
     <state x="-2381" y="242" width="1636" height="739" key="DiffContextDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582793492125" />
-    <state width="888" height="309" key="GridCell.Tab.0.bottom" timestamp="1583994714030">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.0.bottom" timestamp="1584356476973">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714030" />
-    <state width="1358" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021551" />
+    <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914136" />
+    <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356476973" />
     <state width="1358" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="888" height="309" key="GridCell.Tab.0.center" timestamp="1583994714029">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.0.center" timestamp="1584356476972">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714029" />
-    <state width="1358" height="148" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021550" />
+    <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914134" />
+    <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356476972" />
     <state width="1358" height="148" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="888" height="309" key="GridCell.Tab.0.left" timestamp="1583994714028">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.0.left" timestamp="1584356476972">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714028" />
-    <state width="1358" height="148" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021550" />
+    <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914134" />
+    <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356476972" />
     <state width="1358" height="148" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="888" height="309" key="GridCell.Tab.0.right" timestamp="1583994714029">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.0.right" timestamp="1584356476973">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714029" />
-    <state width="1358" height="148" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021551" />
+    <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914135" />
+    <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356476973" />
     <state width="1358" height="148" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="888" height="309" key="GridCell.Tab.1.bottom" timestamp="1583994714080">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.1.bottom" timestamp="1584356477043">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714080" />
-    <state width="1358" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021546" />
-    <state width="888" height="309" key="GridCell.Tab.1.center" timestamp="1583994714079">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914138" />
+    <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356477043" />
+    <state width="888" height="309" key="GridCell.Tab.1.center" timestamp="1584356477042">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714079" />
-    <state width="1358" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021545" />
-    <state width="888" height="309" key="GridCell.Tab.1.left" timestamp="1583994714079">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914137" />
+    <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356477042" />
+    <state width="888" height="309" key="GridCell.Tab.1.left" timestamp="1584356477042">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714079" />
-    <state width="1358" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021545" />
-    <state width="888" height="309" key="GridCell.Tab.1.right" timestamp="1583994714079">
-      <screen x="-2560" y="-69" width="2560" height="1417" />
+    <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914136" />
+    <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356477042" />
+    <state width="888" height="309" key="GridCell.Tab.1.right" timestamp="1584356477042">
+      <screen x="0" y="23" width="1680" height="979" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994714079" />
-    <state width="1358" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582542021546" />
+    <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583994914137" />
+    <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584356477042" />
     <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor" timestamp="1583993830202">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
     <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583993830202" />
     <state x="328" y="94" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1582193568899" />
-    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog" timestamp="1583992886821">
+    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog" timestamp="1584353008145">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583992886821" />
+    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584353008145" />
     <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582537683774" />
     <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979@0.23.1680.979" timestamp="1582188873196" />
     <state x="-1501" y="694" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582791421685">
@@ -275,10 +276,29 @@
     <state x="1001" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1680.979@0.23.1680.979" timestamp="1582194142369" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="s.substring(2,3)" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PartitionList86.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PartitionList86.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PartitionList86.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/PartitionList86.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
