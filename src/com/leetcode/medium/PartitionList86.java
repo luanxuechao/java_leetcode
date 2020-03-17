@@ -1,5 +1,6 @@
 package com.leetcode.medium;
 
+// 是将所有小于给定值的节点取出组成一个新的链表，此时原链表中剩余的节点的值都大于或等于给定值，只要将原链表直接接在新链表后即可
 public class PartitionList86 {
 
     public static class ListNode {
@@ -12,34 +13,72 @@ public class PartitionList86 {
     }
 
     public static ListNode partition(ListNode head, final int x) {
-        ListNode headCopy = head;
+        if (head == null) {
+            return head;
+        }
         ListNode h = null;
-        ListNode t = null;
-        while (headCopy != null) {
-            final ListNode l = new ListNode(headCopy.val);
-            if (l.val < x) {
-                l.next = h;
-                h = l;
-            } else {
-                l.next = t;
-                t = l;
+        ListNode l = null;
+        ListNode hFir = null;
+        ListNode lFir = null;
+
+        while (head != null) {
+            if (head.val >= x) {
+                if (h == null) {
+                    h = new ListNode(head.val);
+                    hFir = h;
+                } else {
+                    h.next = new ListNode(head.val);
+                    h = h.next;
+                }
             }
-            headCopy = headCopy.next;
+            if (head.val < x) {
+                if (l == null) {
+                    l = new ListNode(head.val);
+                    lFir = l;
+                } else {
+                    l.next = new ListNode(head.val);
+                    l = l.next;
+                }
+            }
+            head = head.next;
         }
-        head = null;
-        while (t != null) {
-            final ListNode l = new ListNode(t.val);
-            l.next = head;
-            head = l;
-            t = t.next;
+        if (lFir == null) {
+            lFir = hFir;
+        } else {
+            l.next = hFir;
         }
-        while (h != null) {
-            final ListNode l = new ListNode(h.val);
-            l.next = head;
-            head = l;
-            h = h.next;
-        }
-        return head;
+
+        return lFir;
+
+        // ListNode headCopy=head;
+        // ListNode h=null;
+        // ListNode t=null;
+        // while (headCopy!=null){
+        // ListNode l = new ListNode(headCopy.val);
+        // if (l.val<x){
+        // l.next = h;
+        // h=l;
+        // }
+        // else {
+        // l.next = t;
+        // t=l;
+        // }
+        // headCopy=headCopy.next;
+        // }
+        // head=null;
+        // while (t!=null){
+        // ListNode l = new ListNode(t.val);
+        // l.next=head;
+        // head = l;
+        // t=t.next;
+        // }
+        // while (h!=null){
+        // ListNode l = new ListNode(h.val);
+        // l.next=head;
+        // head = l;
+        // h=h.next;
+        // }
+        // return head;
     }
 
     public static void main(final String[] args) {
