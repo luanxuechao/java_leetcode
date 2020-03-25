@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/LongestRepeatingCharacterReplacement424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/hard/TrappingRainWater42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ContainerWithMostWater11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +45,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement424">
-    <configuration name="DecryptStringfromAlphabettoIntegerMapping1309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.DecryptStringfromAlphabettoIntegerMapping1309" />
+  <component name="RunManager" selected="Application.TrappingRainWater42">
+    <configuration name="ContainerWithMostWater11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ContainerWithMostWater11" />
       <module name="java_leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="PATTERN" value="com.leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,13 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.easy.ValidParentheses20" />
+    <configuration name="TrappingRainWater42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.hard.TrappingRainWater42" />
       <module name="java_leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.easy.*" />
+          <option name="PATTERN" value="com.leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
-      <item itemvalue="Application.ValidParentheses20" />
-      <item itemvalue="Application.RemoveNthNodeFromEndofList19" />
-      <item itemvalue="Application.PartitionList86" />
+      <item itemvalue="Application.ContainerWithMostWater11" />
       <item itemvalue="Application.LongestRepeatingCharacterReplacement424" />
+      <item itemvalue="Application.PartitionList86" />
+      <item itemvalue="Application.RemoveNthNodeFromEndofList19" />
+      <item itemvalue="Application.TrappingRainWater42" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrappingRainWater42" />
+        <item itemvalue="Application.ContainerWithMostWater11" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement424" />
         <item itemvalue="Application.PartitionList86" />
         <item itemvalue="Application.RemoveNthNodeFromEndofList19" />
-        <item itemvalue="Application.ValidParentheses20" />
-        <item itemvalue="Application.DecryptStringfromAlphabettoIntegerMapping1309" />
       </list>
     </recent_temporary>
   </component>
@@ -211,61 +212,66 @@
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
     <state x="-2381" y="242" width="1636" height="739" key="DiffContextDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1582793492125" />
-    <state width="888" height="309" key="GridCell.Tab.0.bottom" timestamp="1584439344441">
+    <state width="888" height="309" key="GridCell.Tab.0.bottom" timestamp="1584517253281">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344441" />
+    <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253281" />
     <state width="888" height="309" key="GridCell.Tab.0.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131500" />
     <state width="1358" height="148" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="888" height="309" key="GridCell.Tab.0.center" timestamp="1584439344440">
+    <state width="888" height="309" key="GridCell.Tab.0.center" timestamp="1584517253280">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344440" />
+    <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253280" />
     <state width="888" height="309" key="GridCell.Tab.0.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131475" />
     <state width="1358" height="148" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="888" height="309" key="GridCell.Tab.0.left" timestamp="1584439344439">
+    <state width="888" height="309" key="GridCell.Tab.0.left" timestamp="1584517253280">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344439" />
+    <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253280" />
     <state width="888" height="309" key="GridCell.Tab.0.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131456" />
     <state width="1358" height="148" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1582280147711" />
-    <state width="888" height="309" key="GridCell.Tab.0.right" timestamp="1584439344440">
+    <state width="888" height="309" key="GridCell.Tab.0.right" timestamp="1584517253281">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344440" />
+    <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253281" />
     <state width="888" height="309" key="GridCell.Tab.0.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131497" />
     <state width="1358" height="148" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1582280147712" />
-    <state width="888" height="309" key="GridCell.Tab.1.bottom" timestamp="1584439344522">
+    <state width="888" height="309" key="GridCell.Tab.1.bottom" timestamp="1584517253352">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344522" />
+    <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253352" />
     <state width="888" height="309" key="GridCell.Tab.1.bottom/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131560" />
-    <state width="888" height="309" key="GridCell.Tab.1.center" timestamp="1584439344521">
+    <state width="888" height="309" key="GridCell.Tab.1.center" timestamp="1584517253352">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344521" />
+    <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253352" />
     <state width="888" height="309" key="GridCell.Tab.1.center/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131559" />
-    <state width="888" height="309" key="GridCell.Tab.1.left" timestamp="1584439344521">
+    <state width="888" height="309" key="GridCell.Tab.1.left" timestamp="1584517253351">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344521" />
+    <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253351" />
     <state width="888" height="309" key="GridCell.Tab.1.left/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131558" />
-    <state width="888" height="309" key="GridCell.Tab.1.right" timestamp="1584439344521">
+    <state width="888" height="309" key="GridCell.Tab.1.right" timestamp="1584517253352">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584439344521" />
+    <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584517253352" />
     <state width="888" height="309" key="GridCell.Tab.1.right/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584410131559" />
-    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor" timestamp="1583993830202">
+    <state x="-1395" y="437" key="RollbackChangesDialog" timestamp="1584509619961">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
-    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1583993830202" />
-    <state x="328" y="94" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1582193568899" />
-    <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog" timestamp="1584433902323">
+    <state x="-1395" y="437" key="RollbackChangesDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584509619961" />
+    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor" timestamp="1584512470079">
       <screen x="-2560" y="-69" width="2560" height="1417" />
+    </state>
+    <state x="-1854" y="-12" width="1304" height="722" key="SettingsEditor/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584512470079" />
+    <state x="328" y="94" key="SettingsEditor/0.23.1680.979@0.23.1680.979" timestamp="1582193568899" />
+    <state x="3351" y="446" key="com.intellij.ide.util.TipDialog" timestamp="1585122276888">
+      <screen x="2560" y="-20" width="2560" height="1417" />
     </state>
     <state x="-1769" y="397" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@-2560.-69.2560.1417" timestamp="1584433902323" />
-    <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1582537683774" />
+    <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979/-2560.-69.2560.1417@0.23.1680.979" timestamp="1584596022586" />
     <state x="519" y="345" key="com.intellij.ide.util.TipDialog/0.23.1680.979@0.23.1680.979" timestamp="1582188873196" />
+    <state x="3351" y="446" key="com.intellij.ide.util.TipDialog/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1585122276888" />
     <state x="-1501" y="694" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582791421685">
       <screen x="-2560" y="-69" width="2560" height="1417" />
     </state>
@@ -280,11 +286,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/LongestRepeatingCharacterReplacement424.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/src/com/leetcode/hard/TrappingRainWater42.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_leetcode$TrappingRainWater42.ic" NAME="TrappingRainWater42 Coverage Results" MODIFIED="1584517113529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.hard.*</FILTER>
+    </SUITE>
   </component>
 </project>
