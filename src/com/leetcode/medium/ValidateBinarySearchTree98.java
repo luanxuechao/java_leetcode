@@ -51,4 +51,24 @@ public class ValidateBinarySearchTree98 {
         }
         return max;
     }
+
+    // 动态规划求解: 从根节点DFS, 用区间求解
+    public boolean isValidDPBST(TreeNode root) {
+        long maxValue = (long)Integer.MAX_VALUE + 1;
+        long minValue = (long)Integer.MIN_VALUE - 1;
+        return getAns(root, maxValue, minValue);
+    }
+
+    private boolean getAns(TreeNode root, long maxValue, long minValue) {
+        if (root == null) {
+            return true;
+        }
+        if (root.val >= maxValue) {
+            return false;
+        }
+        if (root.val <= minValue) {
+            return false;
+        }
+        return getAns(root.left, root.val, minValue) && getAns(root.right, maxValue, root.val);
+    }
 }

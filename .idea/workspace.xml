@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/UniqueBinarySearchTrees96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ValidateBinarySearchTree98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/SameTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/ValidateBinarySearchTree98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ValidateBinarySearchTree98.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
