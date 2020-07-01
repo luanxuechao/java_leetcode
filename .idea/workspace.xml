@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/BinaryTreeLevelOrderTraversal102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/BinaryTreeZigzagLevelOrderTraversal103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/MaximumDepthOfBinaryTree104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="244" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,7 +50,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.UniqueBinarySearchTreesII95">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.leetcode.medium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal105">
     <configuration name="BinaryTreeInorderTraversal94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.BinaryTreeInorderTraversal94" />
       <module name="java_leetcode" />
@@ -62,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerToRoman12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.IntegerToRoman12" />
+    <configuration name="ConstructBinaryTreeFromPreorderAndInorderTraversal105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.medium.ConstructBinaryTreeFromPreorderAndInorderTraversal105" />
       <module name="java_leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -143,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerToRoman12" />
       <item itemvalue="Application.LongestValidParentheses32" />
       <item itemvalue="Application.MergeTwoSortedLists21" />
       <item itemvalue="Application.BinaryTreeInorderTraversal94" />
       <item itemvalue="Application.UniqueBinarySearchTreesII95" />
+      <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal105" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBinaryTreeFromPreorderAndInorderTraversal105" />
         <item itemvalue="Application.UniqueBinarySearchTreesII95" />
         <item itemvalue="Application.BinaryTreeInorderTraversal94" />
         <item itemvalue="Application.LongestValidParentheses32" />
         <item itemvalue="Application.MergeTwoSortedLists21" />
-        <item itemvalue="Application.IntegerToRoman12" />
       </list>
     </recent_temporary>
   </component>
@@ -191,55 +199,67 @@
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
     <state x="1291" y="583" key="#com.intellij.ide.util.MemberChooser/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593326966952" />
-    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1593408996577">
+    <state x="1226" y="435" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593596480810">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="414" height="466" key="DebuggerActiveHint/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593408996577" />
-    <state width="950" height="351" key="GridCell.Tab.0.bottom" timestamp="1593409163811">
+    <state x="1226" y="435" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593596480810" />
+    <state x="1251" y="392" key="#xdebugger.evaluate" timestamp="1593598125330">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163811" />
+    <state x="1251" y="392" key="#xdebugger.evaluate/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593598125330" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1593599268289">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state width="462" height="466" key="DebuggerActiveHint/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599268289" />
+    <state width="950" height="351" key="GridCell.Tab.0.bottom" timestamp="1593599536154">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state width="950" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536154" />
     <state width="810" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449099" />
-    <state width="950" height="351" key="GridCell.Tab.0.center" timestamp="1593409163810">
+    <state width="950" height="351" key="GridCell.Tab.0.center" timestamp="1593599536153">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163810" />
+    <state width="950" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536153" />
     <state width="810" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449098" />
-    <state width="950" height="351" key="GridCell.Tab.0.left" timestamp="1593409163809">
+    <state width="950" height="351" key="GridCell.Tab.0.left" timestamp="1593599536152">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163809" />
+    <state width="950" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536152" />
     <state width="810" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449097" />
-    <state width="950" height="351" key="GridCell.Tab.0.right" timestamp="1593409163811">
+    <state width="950" height="351" key="GridCell.Tab.0.right" timestamp="1593599536154">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163811" />
+    <state width="950" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536154" />
     <state width="810" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449099" />
-    <state width="950" height="351" key="GridCell.Tab.1.bottom" timestamp="1593409163813">
+    <state width="950" height="351" key="GridCell.Tab.1.bottom" timestamp="1593599536247">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163813" />
+    <state width="950" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536247" />
     <state width="810" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.center" timestamp="1593409163812">
+    <state width="950" height="351" key="GridCell.Tab.1.center" timestamp="1593599536246">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163812" />
+    <state width="950" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536246" />
     <state width="810" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.left" timestamp="1593409163812">
+    <state width="950" height="351" key="GridCell.Tab.1.left" timestamp="1593599536246">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163812" />
+    <state width="950" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536246" />
     <state width="810" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.right" timestamp="1593409163812">
+    <state width="950" height="351" key="GridCell.Tab.1.right" timestamp="1593599536246">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593409163812" />
+    <state width="950" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593599536246" />
     <state width="810" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state x="791" y="473" key="com.intellij.ide.util.TipDialog" timestamp="1593326173180">
+    <state x="791" y="473" key="com.intellij.ide.util.TipDialog" timestamp="1593568841545">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state x="791" y="473" key="com.intellij.ide.util.TipDialog/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593326173180" />
+    <state x="791" y="473" key="com.intellij.ide.util.TipDialog/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593568841545" />
     <state x="3351" y="446" key="com.intellij.ide.util.TipDialog/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1585122276888" />
+    <state x="2773" y="211" width="1441" height="761" key="dock-window-1" timestamp="1593592006913">
+      <screen x="2560" y="-20" width="2560" height="1417" />
+    </state>
+    <state x="2773" y="211" width="1441" height="761" key="dock-window-1/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593592006913" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +278,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_leetcode$ConstructBinaryTreeFromPreorderAndInorderTraversal105.ic" NAME="ConstructBinaryTreeFromPreorderAndInorderTraversal105 Coverage Results" MODIFIED="1593597057680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.leetcode.medium.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/java_leetcode$TrappingRainWater42.ic" NAME="TrappingRainWater42 Coverage Results" MODIFIED="1584517113529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.leetcode.hard.*</FILTER>
     </SUITE>
