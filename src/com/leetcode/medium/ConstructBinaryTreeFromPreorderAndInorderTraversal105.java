@@ -1,6 +1,7 @@
 package com.leetcode.medium;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
     // Test case not allowed
@@ -64,7 +65,41 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal105 {
         return root;
     }
 
+    // stack
+    public static TreeNode buildTreeStack(int[] preorder, int[] inorder) {
+        if (preorder.length == 0) {
+            return null;
+        }
+        Stack<TreeNode> roots = new Stack<>();
+        int pre = 0;
+        int in = 0;
+        TreeNode curRoot = new TreeNode(preorder[pre]);
+        TreeNode root = curRoot;
+        pre++;
+        roots.push(curRoot);
+        while (pre < preorder.length) {
+            if (curRoot.val == inorder[in]) {
+                while (!roots.isEmpty() && roots.peek().val == inorder[in]) {
+                    curRoot = roots.peek();
+                    roots.pop();
+                    in++;
+                }
+                curRoot.right = new TreeNode(preorder[pre]);
+                curRoot = curRoot.right;
+                roots.push(curRoot);
+                pre++;
+
+            } else {
+                curRoot.left = new TreeNode(preorder[pre]);
+                curRoot = curRoot.left;
+                roots.push(curRoot);
+                pre++;
+            }
+        }
+        return root;
+    }
+
     public static void main(String[] args) {
-        TreeNode node = buildTree(new int[] {1, 2, 3}, new int[] {1, 2, 3});
+        TreeNode node = buildTreeStack(new int[] {3, 9, 20, 15, 7}, new int[] {20, 9, 15, 3, 7});
     }
 }
