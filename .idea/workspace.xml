@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcce4268-55d8-4f35-b3de-924517c33eba" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/easy/BinaryTreeLevelOrderTraversalI107.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,45 +210,45 @@
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
     <state width="462" height="466" key="DebuggerActiveHint/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678350906" />
-    <state width="950" height="351" key="GridCell.Tab.0.bottom" timestamp="1593678329164">
+    <state width="950" height="351" key="GridCell.Tab.0.bottom" timestamp="1593678577072">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329164" />
+    <state width="950" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577072" />
     <state width="810" height="351" key="GridCell.Tab.0.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449099" />
-    <state width="950" height="351" key="GridCell.Tab.0.center" timestamp="1593678329163">
+    <state width="950" height="351" key="GridCell.Tab.0.center" timestamp="1593678577071">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329163" />
+    <state width="950" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577071" />
     <state width="810" height="351" key="GridCell.Tab.0.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449098" />
-    <state width="950" height="351" key="GridCell.Tab.0.left" timestamp="1593678329162">
+    <state width="950" height="351" key="GridCell.Tab.0.left" timestamp="1593678577070">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329162" />
+    <state width="950" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577070" />
     <state width="810" height="351" key="GridCell.Tab.0.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449097" />
-    <state width="950" height="351" key="GridCell.Tab.0.right" timestamp="1593678329163">
+    <state width="950" height="351" key="GridCell.Tab.0.right" timestamp="1593678577072">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329163" />
+    <state width="950" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577072" />
     <state width="810" height="351" key="GridCell.Tab.0.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449099" />
-    <state width="950" height="351" key="GridCell.Tab.1.bottom" timestamp="1593678329236">
+    <state width="950" height="351" key="GridCell.Tab.1.bottom" timestamp="1593678577073">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329236" />
+    <state width="950" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577073" />
     <state width="810" height="351" key="GridCell.Tab.1.bottom/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.center" timestamp="1593678329235">
+    <state width="950" height="351" key="GridCell.Tab.1.center" timestamp="1593678577073">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329235" />
+    <state width="950" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577073" />
     <state width="810" height="351" key="GridCell.Tab.1.center/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.left" timestamp="1593678329235">
+    <state width="950" height="351" key="GridCell.Tab.1.left" timestamp="1593678577073">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329235" />
+    <state width="950" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577073" />
     <state width="810" height="351" key="GridCell.Tab.1.left/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
-    <state width="950" height="351" key="GridCell.Tab.1.right" timestamp="1593678329235">
+    <state width="950" height="351" key="GridCell.Tab.1.right" timestamp="1593678577073">
       <screen x="0" y="23" width="2560" height="1367" />
     </state>
-    <state width="950" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678329235" />
+    <state width="950" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@0.23.2560.1367" timestamp="1593678577073" />
     <state width="810" height="351" key="GridCell.Tab.1.right/2560.-20.2560.1417/0.23.2560.1367/-1680.23.1680.1027@2560.-20.2560.1417" timestamp="1586340449100" />
     <state x="791" y="473" key="com.intellij.ide.util.TipDialog" timestamp="1593660744729">
       <screen x="0" y="23" width="2560" height="1367" />
@@ -328,66 +327,6 @@
           <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromPreorderAndInorderTraversal105.java</url>
           <line>84</line>
           <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/medium/ConstructBinaryTreeFromInorderAndPostorderTraversal106.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="145" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
