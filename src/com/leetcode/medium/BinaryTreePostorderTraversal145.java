@@ -3,8 +3,8 @@ package com.leetcode.medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreePreorderTraversal144 {
-    public List<Integer> preorderTraversal(TreeNode root) {
+public class BinaryTreePostorderTraversal145 {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         helper(root, result);
         return result;
@@ -14,9 +14,9 @@ public class BinaryTreePreorderTraversal144 {
         if (root == null) {
             return;
         }
-        result.add(root.val);
         helper(root.left, result);
         helper(root.right, result);
+        result.add(root.val);
         return;
     }
 }
