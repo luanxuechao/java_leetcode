@@ -19,8 +19,10 @@ public class BinaryTreePaths257 {
             TreeNode curNode = trees.pop();
             String curStr = sStr.pop();
 
-            if (curNode.left == null && curNode.right == null)
+            if (curNode.left == null && curNode.right == null) {
                 result.add(curStr + curNode.val);
+            }
+
             if (curNode.left != null) {
                 trees.push(curNode.left);
                 sStr.push(curStr + curNode.val + "->");
