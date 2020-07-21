@@ -58,7 +58,28 @@ public class CombinationSum39 {
         return ans_list;
     }
 
+    // 回溯法 决策树
+    public List<List<Integer>> combinationSum1(int[] candidates, int target) {
+        List<List<Integer>> ans = new ArrayList<>(); // opt 数组
+        backTrack(ans, new ArrayList<>(), candidates, target, 0);
+        return ans;
+    }
+
+    public void backTrack(List<List<Integer>> list, List<Integer> tempList, int[] nums, int remains, int start) {
+        if (remains < 0) {
+            return;
+        } else if (remains == 0) {
+            list.add(new ArrayList<>(tempList));
+        } else {
+            for (int i = start; i < nums.length; i++) {
+                tempList.add(nums[i]);
+                backTrack(list, tempList, nums, remains - nums[i], i);
+                tempList.remove(tempList.size() - 1);
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        new CombinationSum39().combinationSum(new int[] {8, 7, 4, 3}, 11);
+        new CombinationSum39().combinationSum1(new int[] {8, 7, 4, 3}, 11);
     }
 }
