@@ -63,6 +63,6 @@ public class TrappingRainWater42 {
 
     public static void main(String[] args) {
         int[] a = new int[] {0, 7, 1, 4, 6};
-        trap(a);
+        // trap(a);
     }
 }
